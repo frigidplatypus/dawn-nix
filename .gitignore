@@ -1,0 +1,31 @@
+# Nix build outputs
+result/
+
+# C build artifacts
+build/
+bin/
+obj/
+*.o
+*.a
+*.so
+*.exe
+*.dll
+
+# Build logs and configs
+*.log
+config.log
+Makefile
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Environment files
+.env*
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
